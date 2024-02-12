@@ -2,19 +2,6 @@
   "name": "my_react_boiler_plate",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@emotion/babel-plugin": "^11.11.0",
-    "@emotion/react": "^11.11.3",
-    "@mui/material": "^5.15.9",
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
-    "@testing-library/user-event": "^14.5.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^3.5.2"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,8 +29,21 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.5.2"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/babel-plugin": "^11.11.0",
     "@storybook/addon-essentials": "^7.6.13",
     "@storybook/addon-interactions": "^7.6.13",
     "@storybook/addon-links": "^7.6.13",
@@ -53,6 +53,9 @@
     "@storybook/react": "^7.6.13",
     "@storybook/react-webpack5": "^7.6.13",
     "@storybook/test": "^7.6.13",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.5.2",
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.13",
